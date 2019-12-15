@@ -1,0 +1,14 @@
+* Z:\home\miguel\fiuba\microelectronica\tps\tfinal\ejemplo\ejemplo.asc
+M1 VOUT VIN 0 0 CMOSN l={Ln} w={Wn} ad={Ldiffn*Wn} as={Ldiffn*Wn} pd={2*Ldiffn+Wn} ps={2*Ldiffn+Wn}
+M2 VDD VIN VOUT VDD CMOSP l={Lp} w={Wp} ad={Ldiffp*Wp} as={Ldiffp*Wp} pd={2*Ldiffp+Wp} ps={2*Ldiffp+Wp}
+V1 VIN 0 PULSE(0 1.8 50p 1p 1p 100p 200p)
+V2 VDD 0 1.8
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\miguel\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.include ../lib/T180nm.lib
+.tran 0 250p 0 .1p
+.param Lp=180n Wp=001u Ldiffp=0.48u
+.param Ln=180n Wn=500n Ldiffn=0.48u
+.backanno
+.end
