@@ -1,31 +1,31 @@
 Version 4
-SymbolType CELL
-LINE Normal -32 -1 96 64
-LINE Normal -32 129 96 64
-LINE Normal -32 -1 -32 129
-LINE Normal -28 32 -20 32
-LINE Normal -28 96 -20 96
-LINE Normal -24 100 -24 92
-LINE Normal 0 128 0 112
-LINE Normal 4 116 12 116
-LINE Normal 64 48 80 48
-LINE Normal 64 80 80 80
-LINE Normal 49 49 57 49
-LINE Normal 53 45 53 53
-LINE Normal 47 79 55 79
+SymbolType BLOCK
+LINE Normal -48 -65 80 0
+LINE Normal -48 65 80 0
+LINE Normal -48 -65 -48 65
+LINE Normal -44 32 -36 32
+LINE Normal -44 -32 -36 -32
+LINE Normal -40 -28 -40 -36
+LINE Normal -16 64 -16 48
+LINE Normal -12 52 -4 52
+LINE Normal 48 -16 64 -16
+LINE Normal 48 16 64 16
+LINE Normal 33 -15 41 -15
+LINE Normal 37 -19 37 -11
+LINE Normal 31 15 39 15
 SYMATTR SpiceModel Preamp
-PIN -32 96 RIGHT 0
-PINATTR PinName Iom
-PINATTR SpiceOrder 1
-PIN -32 32 RIGHT 0
-PINATTR PinName Iop
-PINATTR SpiceOrder 2
-PIN 0 128 TOP 0
-PINATTR PinName Vss
-PINATTR SpiceOrder 4
-PIN 80 48 LEFT 0
+PIN 64 -16 LEFT 8
 PINATTR PinName Vop
-PINATTR SpiceOrder 5
-PIN 80 80 LEFT 0
+PINATTR SpiceOrder 1
+PIN 64 16 LEFT 8
 PINATTR PinName Vom
-PINATTR SpiceOrder 6
+PINATTR SpiceOrder 2
+PIN -16 64 TOP 8
+PINATTR PinName Vss
+PINATTR SpiceOrder 3
+PIN -48 32 RIGHT 8
+PINATTR PinName Iom
+PINATTR SpiceOrder 4
+PIN -48 -32 RIGHT 8
+PINATTR PinName Iop
+PINATTR SpiceOrder 5
