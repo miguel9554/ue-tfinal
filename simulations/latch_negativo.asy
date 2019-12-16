@@ -1,0 +1,31 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -96 112 -96 -112
+LINE Normal 96 112 -96 112
+LINE Normal 96 -113 96 112
+LINE Normal -96 -112 96 -112
+LINE Normal -81 48 -96 65
+LINE Normal -96 33 -81 48
+WINDOW 38 -73 -14 Left 2
+SYMATTR SpiceModel Latch negativo
+PIN -96 -80 RIGHT 8
+PINATTR PinName L
+PINATTR SpiceOrder 1
+PIN 0 -112 BOTTOM 8
+PINATTR PinName Vdd
+PINATTR SpiceOrder 2
+PIN 0 112 TOP 8
+PINATTR PinName Vss
+PINATTR SpiceOrder 3
+PIN 96 -64 LEFT 8
+PINATTR PinName Q
+PINATTR SpiceOrder 4
+PIN -96 48 RIGHT 8
+PINATTR PinName Clk
+PINATTR SpiceOrder 5
+PIN 96 48 LEFT 8
+PINATTR PinName ~Q
+PINATTR SpiceOrder 6
+PIN -96 -32 RIGHT 8
+PINATTR PinName R
+PINATTR SpiceOrder 7
