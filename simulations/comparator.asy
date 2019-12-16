@@ -8,6 +8,8 @@ LINE Normal -1 -65 -1 -93
 LINE Normal 2 64 -48 64
 LINE Normal 2 -33 2 64
 LINE Normal 34 -33 2 -33
+LINE Normal 63 -35 63 -61
+LINE Normal 64 48 64 93
 PIN -64 -48 RIGHT 8
 PINATTR PinName -
 PINATTR SpiceOrder 1
@@ -23,3 +25,9 @@ PINATTR SpiceOrder 4
 PIN -64 48 RIGHT 8
 PINATTR PinName +
 PINATTR SpiceOrder 5
+PIN 64 -64 BOTTOM 8
+PINATTR PinName Vbiasp
+PINATTR SpiceOrder 6
+PIN 64 96 TOP 8
+PINATTR PinName Vbiasn
+PINATTR SpiceOrder 7
