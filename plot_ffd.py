@@ -18,7 +18,7 @@ with open(filepath) as fp:
         q.append(float(line.split('\t')[3]))
         r.append(float(line.split('\t')[4]))
 
-plt.figure(figsize=(50,20))
+plt.figure(figsize=(50,240))
 plt.suptitle('Simulación FFD', fontsize=20)
 
 clk_ax = plt.subplot(4,1,1)
